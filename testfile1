@@ -6,6 +6,8 @@ int main()
 
    printf("Enter number of students: ");
    scanf("%d", &num);
+   printf("This is first commit for assignment: ");
+   scanf("%d", &num);
 
    FILE *fptr;
    fptr = (fopen("C:\\student.txt", "a"));
